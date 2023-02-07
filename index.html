@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.min.css?_v=20230208012342" />
+    <link rel="stylesheet" href="./css/header.min.css?_v=20230208012342" />
+    <link rel="stylesheet" href="./css/footer.min.css?_v=20230208012342" />
+    <link rel="stylesheet" href="./css/forms.min.css?_v=20230208012342" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20230208012342"
+    />
+
+    <title>Book</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!---Header -->
+      <header class="header">
+  <div class="header__wrapper">
+    <div class="header__top top-header">
+      <div class="top-header__row container">
+         <div class="top-header__burger _anim-items transformL _noAnimAgain">
+            <span></span>
+         </div>
+        <a href="" class="top-header__logo _anim-items transformL _noAnimAgain" >
+
+          <picture><source srcset="img/Header/logo.webp" type="image/webp"><img src="img/Header/logo.png" alt="Header logo" /></picture>
+        </a>
+        <div class="top-header__form _anim-items transformL _noAnimAgain" >
+          <div class="top-header__form-toggle icon-search"></div>
+          <form action="#" name="search" class="top-header__form-search search-form">
+            <div class="search-form__search icon-search">
+              <input
+                type="text"
+                name="search-input"
+                placeholder="Search..."
+                class="search-form__input"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="top-header__user _anim-items transformL _noAnimAgain">
+          <a href="" class="top-header__link icon-user"></a>
+        </div>
+
+      </div>
+    </div>
+    <div class="header__bottom bottom-header">
+      <div class="bottom-header__row container">
+        <nav class="bottom-header__menu">
+          <ul class="bottom-header__list _anim-items _noAnimAgain">
+            <li class="transformL"><a href="" class="bottom-header__link _activeLink" > eBook Purchase </a></li>
+            <li class="transformL"><a href="" class="bottom-header__link"> eBook Preview </a></li>
+            <li class="transformL"><a href="" class="bottom-header__link"> Reviews </a></li>
+            <li class="sub transformL" >
+              <a href="" class="bottom-header__link"> Author </a>
+              <div class="bottom-header__arrow icon-arrow-down"></div>
+              <ul class="bottom-header__sub-menu">
+                <li><a href="" class="bottom-header__sub-link">link#1</a></li>
+                <li><a href="" class="bottom-header__sub-link">link#2</a></li>
+                <li><a href="" class="bottom-header__sub-link">link#3</a></li>
+                <li><a href="" class="bottom-header__sub-link">link#4</a></li>
+              </ul>
+
+            </li>
+            <li class="transformL"><a href="" class="bottom-header__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+      <main class="page">
+        <div class="page__bg">
+          <picture><source srcset="img/MainBg.webp" type="image/webp"><img src="img/MainBg.png" alt="Main page background decor" /></picture>
+        </div>
+
+        <section class="page__mainslider mainslider">
+          <div class="mainslider__body container">
+            <div class="mainslider__row">
+              <div class="mainslider__text">
+                <div class="mainslider__top-title _anim-items transformB">
+                  BACK TO SCHOOL
+                </div>
+                <h1 class="mainslider__title _anim-items transformB">
+                  SPECIAL 50% OFF
+                </h1>
+                <div class="mainslider__sub-title _anim-items transformB">
+                  For our student community
+                </div>
+                <a href="" class="mainslider__btn btn _anim-items scale">
+                  <span>GET THE DEAL </span>
+                </a>
+              </div>
+              <div class="mainslider__slider-col _anim-items transformR">
+                <div class="mainslider__slider-body">
+                  <div class="mainslider__slider _swiper">
+                    <div class="mainslider__slide _ibg">
+                      <img
+                        src="img/Mainslider/slide01.png"
+                        alt="slide01 picture"
+                      />
+                    </div>
+                    <div class="mainslider__slide _ibg">
+                      <img
+                        src="img/Mainslider/slide02.png"
+                        alt="slide02 picture"
+                      />
+                    </div>
+                    <div class="mainslider__slide _ibg">
+                      <img
+                        src="img/Mainslider/slide01.png"
+                        alt="slide01 picture"
+                      />
+                    </div>
+
+                    <div class="mainslider__slide _ibg">
+                      <img
+                        src="img/Mainslider/slide01.png"
+                        alt="slide04 picture"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="mainslider__controls">
+                  <div class="mainslider__scroll"></div>
+                  <div class="mainslider__pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page__purchase purchase">
+          <div class="purchase__body container">
+            <div class="purchase__title title _anim-items transformT">
+              It’s easy as this
+            </div>
+            <div class="purchase__sub-title sub-title _anim-items transformT">
+              Four easy steps to get your new eBook. What are your waiting for?
+            </div>
+            <div class="purchase__row _anim-items">
+              <div class="purchase__column purchase-item scale">
+                <div class="purchase-item__picture circle-picture">
+                  <div class="purchase-item__number">1</div>
+                  <picture><source srcset="img/Purchase/book.webp" type="image/webp"><img src="img/Purchase/book.png" alt="Book icon" /></picture>
+                </div>
+                <div class="purchase-item__body">
+                  <div class="purchase-item__title">eBook Preview</div>
+                  <div class="purchase-item__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </div>
+                </div>
+              </div>
+
+              <div class="purchase__column purchase-item scale">
+                <div class="purchase-item__picture circle-picture">
+                  <div class="purchase-item__number">2</div>
+                  <img
+                    src="img/Purchase/cashregister.png"
+                    alt="Cashregister icon"
+                  />
+                </div>
+                <div class="purchase-item__body">
+                  <div class="purchase-item__title">Purchase eBook</div>
+                  <div class="purchase-item__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </div>
+                </div>
+              </div>
+
+              <div class="purchase__column purchase-item scale">
+                <div class="purchase-item__picture circle-picture">
+                  <div class="purchase-item__number">3</div>
+                  <picture><source srcset="img/Purchase/support.webp" type="image/webp"><img src="img/Purchase/support.png" alt="Support icon" /></picture>
+                </div>
+                <div class="purchase-item__body">
+                  <div class="purchase-item__title">Select format</div>
+                  <div class="purchase-item__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </div>
+                </div>
+              </div>
+
+              <div class="purchase__column purchase-item scale">
+                <div class="purchase-item__picture circle-picture">
+                  <div class="purchase-item__number">4</div>
+                  <picture><source srcset="img/Purchase/book2.webp" type="image/webp"><img src="img/Purchase/book2.png" alt="Book icon" /></picture>
+                </div>
+                <div class="purchase-item__body">
+                  <div class="purchase-item__title">Start Reading</div>
+                  <div class="purchase-item__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="purchase__btn _anim-items scale">
+              <a href="" class="btn"> <span>get the deal </span> </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="page__preview preview">
+          <div class="preview__body container">
+            <div class="preview__title title _anim-items transformB">
+              It’s easy as this
+            </div>
+            <div class="preview__sub-title sub-title _anim-items transformB">
+              Four easy steps to get your new eBook. What are your waiting for?
+            </div>
+            <div class="preview__row">
+              <div class="preview__text-col _anim-items transformL">
+                <div class="preview__text-wrapper">
+                  <div class="preview__text-body text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                      commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                    <h2>Chapter IV</h2>
+                    <p>
+                      Duis sed odio sit amet nibh vulputate cursus a sit roin
+                      gravida nibh vel velit auctor aliquet. Aenean
+                      sollicitudin, lorem quis bibendum auctor, nisi elit
+                      consequat ipsum, nec sagittis sem nibh id eliton neque
+                      elit ed ut imperdiet nisi massa sodales verbuctum etos.
+                      amet mauris morbi accumsan ipsum velit. Nam nec tellus a
+                      odio tincidunt auctor a ornare odio. Sed non mauris vitae
+                      erat consequat auctor eu in elit. Class aptent taciti
+                      sociosqu ad litora torquent per conubia nostra, per
+                      inceptos himenaeos.
+                    </p>
+                    <p>
+                      Mauris in erat justo dullam ac urna eu felis dapibus
+                      condimentum sit amet a augue. Sed non neque elit. Sed ut
+                      imperdiet nisi. Proin condimentum fermentum nunc setu
+                      retiam pharetra, erat sed fermentum feugiat, velit mauris
+                      egestas quam, ut aliquam massa nisl quis neque.
+                      Suspendisse in orci enim. Tur adipiscing elit nam dui
+                      lacuam nec tellus a odio tincidunt auctor a ornare odio.
+                      Sed non.Nam nec tellus a odio tincidunt auctor a ornare
+                      odio. Sed non mauris vitae erat consequat auctor eu in
+                      elit. Class aptent taciti sociosqu ad litora torquent per
+                      conubia nostra, per inceptos himenaeos.
+                    </p>
+                  </div>
+                </div>
+                <div class="preview__human-picture _anim-items scale">
+                  <picture><source srcset="img/Preview/human.webp" type="image/webp"><img src="img/Preview/human.png" alt="human picture" /></picture>
+                </div>
+              </div>
+              <div class="preview__icons-col">
+                <div class="preview__items _anim-items">
+                  <div class="preview__item item-preview transformT">
+                    <div class="item-preview__row">
+                      <div class="item-preview__icon circle-picture">
+                        <picture><source srcset="img/Preview/book.webp" type="image/webp"><img src="img/Preview/book.png" alt="Book icon" /></picture>
+                      </div>
+                      <div class="item-preview__text">
+                        <div class="item-preview__title">Easy to read</div>
+                        <div class="item-preview__subtitle text">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Tenetur mollitia, earum optio temporibus,
+                          commodi ad ea quae expedita praesentium quisquam
+                          dolores repellat quasi culpa dolorem.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="preview__item item-preview transformT">
+                    <div class="item-preview__row">
+                      <div class="item-preview__icon circle-picture">
+                        <picture><source srcset="img/Preview/file.webp" type="image/webp"><img src="img/Preview/file.png" alt="File icon" /></picture>
+                      </div>
+                      <div class="item-preview__text">
+                        <div class="item-preview__title">Well organised</div>
+                        <div class="item-preview__subtitle text">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="preview__item item-preview transformT">
+                    <div class="item-preview__row">
+                      <div class="item-preview__icon circle-picture">
+                        <img
+                          src="img/Preview/printer.png"
+                          alt="Printer icon"
+                        />
+                      </div>
+                      <div class="item-preview__text">
+                        <div class="item-preview__title">Ready to print</div>
+                        <div class="item-preview__subtitle text">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page__reviews reviews">
+          <div class="reviews__body container">
+            <div class="reviews__title title _anim-items transformB">
+              Clients Reviews
+            </div>
+            <div class="reviews__subtitle sub-title _anim-items transformB">
+              A few reviews from satisfied clients.
+            </div>
+            <div class="reviews__row _anim-items">
+              <div class="reviews__review single-review transformL">
+                <div class="single-review__body">
+                  <div class="single-review__picture">
+                    <picture><source srcset="img/Reviews/person1.webp" type="image/webp"><img src="img/Reviews/person1.jpg" alt="Brade Harley" /></picture>
+                  </div>
+                  <div class="single-review__person-name">Andrei Fredy</div>
+                  <div class="single-review__person-country">
+                    client from romania
+                  </div>
+                  <div class="single-review__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis. et
+                    dolore magna aliqua. Tuis ipsum suspendisse ultrices
+                    gravida. Risus commodo viverra maecenas accumsan lacus vel
+                    facilisis. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Deleniti, praesentium!
+                  </div>
+                  <div class="single-review__label">Rate this review</div>
+                  <ul class="single-review__stars">
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="reviews__review single-review transformL">
+                <div class="single-review__body">
+                  <div class="single-review__picture">
+                    <picture><source srcset="img/Reviews/person2.webp" type="image/webp"><img src="img/Reviews/person2.jpg" alt="Stever Rambo" /></picture>
+                  </div>
+                  <div class="single-review__person-name">Steve Rambo</div>
+                  <div class="single-review__person-country">
+                    Catalina Vibes
+                  </div>
+                  <div class="single-review__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis. et
+                    dolore magna aliqua. Tuis ipsum suspendisse ultrices
+                  </div>
+                  <div class="single-review__label">Rate this review</div>
+                  <ul class="single-review__stars">
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="reviews__review single-review transformL">
+                <div class="single-review__body">
+                  <div class="single-review__picture">
+                    <img
+                      src="img/MassEffect2_cover.png"
+                      alt="Commander Shepard"
+                    />
+                  </div>
+                  <div class="single-review__person-name">Steve Rambo</div>
+                  <div class="single-review__person-country">Earth</div>
+                  <div class="single-review__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis. et
+                    dolore magna aliqua. Tuis ipsum suspendisse ultrices
+                  </div>
+                  <div class="single-review__label">Rate this review</div>
+                  <ul class="single-review__stars">
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                    <li><span class="icon-star"></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="page__numbers numbers">
+          <div class="numbers__body container">
+            <div
+              class="numbers__title _anim-items transformB"
+              data-anim-counter
+            >
+              12000
+            </div>
+            <div class="numbers__subtitle _anim-items transformB">
+              copies sold all over the world
+            </div>
+            <ul class="numbers__list _anim-items">
+              <li class="transformL">
+                <a href="" class="numbers__link icon-facebook"></a>
+              </li>
+              <li class="transformL">
+                <a href="" class="numbers__link icon-instagram"></a>
+              </li>
+              <li class="transformL">
+                <a href="" class="numbers__link icon-pinterest"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="numbers__bg _ibg _anim-items">
+            <picture><source srcset="img/Mainslider/slide01.webp" type="image/webp"><img src="img/Mainslider/slide01.png" alt="Content pic" /></picture>
+          </div>
+        </div>
+
+        <section class="page__single-book book-preview">
+          <div class="book-preview__body container">
+            <div class="book-preview__row _anim-items">
+              <div class="book-preview__picture-col">
+                <div class="book-preview__picture _ibg transformL">
+                  <picture><source srcset="img/BookPreview/phone.webp" type="image/webp"><img src="img/BookPreview/phone.png" alt="Phone picture" /></picture>
+                </div>
+              </div>
+              <div class="book-preview__text-col transformR">
+                <div class="book-preview__title">
+                  “This book is a piece from heaven”
+                </div>
+                <div class="book-preview__text text">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                  maecenas accumsan lacus vel facilisis.”
+                </div>
+                <div class="book-preview__author">
+                  <a href="">Mark Jackson </a> - Author
+                </div>
+                <a href="" class="book-preview__btn btn">
+                  <span> buy book</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page__contact contact">
+          <div class="contact__body container">
+            <div class="contact__title _anim-items transformB">Contact</div>
+            <form action="" class="contact__form contact-form">
+              <div class="contact-form__all-elements _anim-items">
+                <div class="contact-form__form-component transformB">
+                  <div class="contact-form__text">
+                    <div class="contact-form__values">
+                      <p><span>Phone: </span> <a href="">000-000-0000</a></p>
+                      <p>
+                        <span>Email: </span> <a href="">your@example.com</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="contact-form__element">
+                    <input
+                      type="text"
+                      class="contact-form__input"
+                      placeholder="Name"
+                      tabindex="2"
+                    />
+                  </div>
+                </div>
+                <div class="contact-form__form-component transformB">
+                  <div class="contact-form__text">
+                    <div class="contact-form__street">
+                      1701 N. Charles Street Baltimore, MD 21202
+                    </div>
+                  </div>
+                  <div class="contact-form__element">
+                    <input
+                      type="text"
+                      class="contact-form__input"
+                      placeholder="Email"
+                      tabindex="2"
+                    />
+                  </div>
+                </div>
+                <div class="contact-form__form-component transformB">
+                  <div class="contact-form__text contact-form__text_top">
+                    <div class="contact-form__hours">
+                      <p>MON–FRI 09.00 — 18.00</p>
+                      <p>SAT–SUN 10.00 — 18.00</p>
+                    </div>
+                  </div>
+                  <div class="contact-form__element">
+                    <textarea placeholder="Message" name="Messagetext">
+                    </textarea>
+                  </div>
+                </div>
+                <div class="contact-form__btn transformB">
+                  <a href="" class="btn"> <span>send message</span> </a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <!---Footer--->
+      <footer class="footer">
+  <div class="footer__top top-footer">
+    <div class="top-footer__body container">
+      <div class="top-footer__row">
+        <a href="" class="top-footer__logo _anim-items transformL">
+          <picture><source srcset="img/Header/logo.webp" type="image/webp"><img src="img/Header/logo.png" alt="Logo" /></picture>
+        </a>
+        <nav class="top-footer__menu">
+          <ul class="top-footer__list _anim-items">
+            <li class="transformL">
+              <a href="" class="top-footer__link"> eBook Purchase </a>
+            </li>
+            <li class="transformL">
+              <a href="" class="top-footer__link"> eBook Preview </a>
+            </li>
+            <li class="transformL">
+              <a href="" class="top-footer__link">Reviews </a>
+            </li>
+            <li class="transformL">
+              <a href="" class="top-footer__link">Author </a>
+            </li>
+            <li class="transformL">
+              <a href="" class="top-footer__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="top-footer__social-list _anim-items">
+          <li class="transformL">
+            <a href="" class="top-footer__social-link icon-facebook"></a>
+          </li>
+          <li class="transformL">
+            <a href="" class="top-footer__social-link icon-instagram"></a>
+          </li>
+          <li class="transformL">
+            <a href="" class="top-footer__social-link icon-twitter"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <div class="footer__rights _anim-items fade">
+        <a href="https://github.com/CAHNCHOYS/BookLandpage">Github </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20230208012342"></script>
+    <script src="./js/app.js?_v=20230208012342"></script>
+  </body>
+</html>
